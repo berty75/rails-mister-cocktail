@@ -1,0 +1,10 @@
+<h1 class="text-center">Show of the Cocktail</h1>
+<h2 class="text-center"><%= @cocktail.name %></h2>
+<ul class="card text-center">
+  <li>
+    <%= @cocktail.ingredients.name %>
+  </li>
+</ul>
+<%= link_to "Back to Home", cocktails_path %>
+
+
