@@ -1,1 +1,17 @@
-<h1>You want your doses</h1>
+<h1>New dose</h1>
+
+<h1 class="text-center">Create new dose</h1>
+
+
+<div class="text-center">
+  <div class="row">
+    <div class="col-4">
+      <%= simple_form_for [@cocktail, @dose] do |f| %>
+        <%= f.input :description %>
+        <%= f.submit class: "btn btn-secondary" %>
+      <% end %>
+    </div>
+  </div>
+</div>
+<br>
+<br>
