@@ -20,6 +20,6 @@ end
 
 private
 def cocktails_params
-  params.require(:cocktail).permit(:name)
+  params.require(:cocktail).permit(:name )
 end
 end
